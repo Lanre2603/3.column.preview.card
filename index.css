@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 50%;
+    margin: auto;
+}
+.orange{
+    background-color: hsl(31, 77%, 52%);
+    padding: 2rem;
+}
+.orange h2{
+    color: white;
+    text-transform: uppercase;
+    padding: 1rem 0 0 0;
+}
+.orange p{
+    color: white;
+    padding: 1rem 0 0 0;
+}
+.orange button{
+    color: hsl(31, 77%, 52%);
+    background-color: white;
+    padding: 7px;
+    border: none;
+    border-radius: 15px;
+    width: 100px;
+    margin: 1rem 0 0 0;
+    text-transform: capitalize;
+}
+
+.orange button:hover{
+    border: 1px solid white;
+    color: white;
+    background-color: hsl(31, 77%, 52%);
+}
+.cyan{
+    background-color: hsl(184, 100%, 22%);
+    padding: 2rem;
+}
+.cyan h2{
+    color: white;
+    text-transform: uppercase;
+    padding: 1rem 0 0 0;
+}
+.cyan p{
+    color: white;
+    padding: 1rem 0 0 0;
+}
+.cyan button{
+    color:  hsl(184, 100%, 22%);;
+    background-color: white;
+    padding: 7px;
+    border: none;
+    border-radius: 15px;
+    width: 100px;
+    margin: 1rem 0 0 0;
+    text-transform: capitalize;
+}
+.cyan button:hover{
+    border: 1px solid white;
+    color: white;
+    background-color: hsl(184, 100%, 22%);;
+}
+.dark-cyan{
+    background-color: hsl(179, 100%, 13%);
+    padding: 2rem;
+}
+.dark-cyan h2{
+    color: white;
+    text-transform: uppercase;
+    padding: 1rem 0 0 0;
+}
+.dark-cyan p{
+    color: white;
+    padding: 1rem 0 0 0;
+}
+.dark-cyan button{
+    color:  hsl(179, 100%, 13%);
+    background-color: white;
+    padding: 7px;
+    border: none;
+    border-radius: 15px;
+    width: 100px;
+    margin: 1rem 0 0 0;
+    text-transform: capitalize;
+}
+.dark-cyan button:hover{
+    border: 1px solid white;
+    color: white;
+    background-color: hsl(179, 100%, 13%);
+}
+
+
+@media (min-width:768px) {
+    .container{
+        display: flex;
+        margin: 10% auto;
+    }
+}
